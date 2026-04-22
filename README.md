@@ -100,3 +100,14 @@ Using local Maven:
 ```bash
 mvn test
 ```
+
+## Deploy to AWS ECS
+
+ECS deployment assets are included:
+
+- `Dockerfile`
+- `.dockerignore`
+- `deploy/ecs/task-definition.template.json`
+- `docs/deployment-ecs.md`
+
+Follow the full step-by-step guide in `docs/deployment-ecs.md`.
